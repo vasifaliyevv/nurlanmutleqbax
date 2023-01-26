@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navmain{
+    margin-top: 70px;
+    position: fixed;
+    width: 90%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navmainleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navmainleft h1{
+    cursor: pointer;
+   
+}
+.navmainleft h1:hover{
+    transform: scale(0.95);
+    transition: 600ms;
+}
+.navmainmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.navmainmid ul{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;    
+
+}
+li:hover{
+    transform: scale(0.95);
+transition: 600ms;
+}
+li:active{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+.navmainright button{
+width: 120px;
+height: 40px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+background-color: #7971ea;
+color: white;
+}
+.navmainright button:hover{
+    background-color: #4d44d1;
+    transition: 1000ms;
+    transform: scale(0.95);
+}
